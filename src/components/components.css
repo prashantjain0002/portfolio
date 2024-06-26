@@ -1,0 +1,351 @@
+.image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.title {
+    position: relative;
+}
+
+.title h1 {
+    padding: 0px 30px;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.title img {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    z-index: -1;
+    width: 100px;
+}
+
+
+/*********************** Navbar Component CSS ***********************/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+
+.navbar img {
+    width: 80px;
+    height: 60px;
+}
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 16px;
+}
+
+.navMenu li {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.navMenu li:hover {
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    -webkit-text-fill-color: transparent; 
+    background-clip: inherit;
+    -webkit-background-clip: text; 
+}
+
+.navConnect {
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+
+.navConnect:hover {
+    transform: scale(1.05);
+}
+
+/*********************** Hero Component CSS ***********************/
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.hero img {
+    margin-top: 70px;
+}
+
+.hero h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.heroAction {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.heroConnect {
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.5s ease all;
+}
+
+.heroResume {
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s ease all;
+}
+
+.heroConnect:hover {
+    border: 2px solid #FFF;
+}
+
+.heroResume:hover {
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    border: none;
+}
+
+/*********************** About Component CSS ***********************/
+.about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.aboutSection {
+    display: flex;
+    gap: 80px;
+}
+
+.aboutSection .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutSection .right {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.aboutParagraph {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+/*********************** Skill Component CSS ***********************/
+.skill {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin: 80px 170px;
+}
+
+.desc {
+    font-size: 18px;
+    text-align: center;
+    max-width: 700px;
+    color: #FFF;
+}
+
+.skillsContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.skillBox {
+    width: 100%;
+    max-width: 500px;
+    background: black;
+    border: 0.1px solid #DA7C25;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 16px;
+    padding: 18px 36px;
+}
+  
+.skillTitle {
+    font-size: 28px;
+    font-weight: 600;
+    color: white;   
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skillList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px
+}
+
+.skillItem {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.skillImage {
+    width: 24px;
+    height: 24px;
+}
+
+/*********************** Project Component CSS ***********************/
+.myProject {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin: 80px 170px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projectCard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.projectCards {
+    width: 330px;
+    height: 490px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    padding: 26px 20px;
+    gap: 14px;
+    border: 1px solid #DA7C25;
+}
+
+.projectCards:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0);
+    filter: brightness(1.1);
+}
+
+.projectCards img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+}
+
+.tags {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.tag {
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    background-color: #DA7C25;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.detail {
+    width: 100%;
+    gap: 0px;
+    padding: 0px 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.projectTitle {
+    font-size: 20px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.date {
+    margin-top: 5px;
+    color: #a7a6ba;
+    font-size: 18px;
+}
+
+.description {
+    color: #8D89A2;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
