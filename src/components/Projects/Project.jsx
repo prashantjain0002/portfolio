@@ -2,6 +2,8 @@ import React from "react";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import "../components.css";
 import { projects } from "../../assets/Project_data";
+import { FaGithub } from "react-icons/fa";
+import { CgLivePhoto } from "react-icons/cg";
 
 const Project = () => {
   // console.log(projects);
@@ -32,7 +34,19 @@ const Project = () => {
                 <p className="date">{project.date}</p>
                 <p className="description">{project.description}</p>
               </div>
-              <div className="members"></div>
+              <div className="links">
+                <a className="button" href={project.github} target="_blank">
+                  {" "}
+                  <FaGithub style={{ marginRight: "5px", fontSize: "14px" }} />
+                  GitHub
+                </a>
+                <a className="button" href={project.webapp} target="_blank">
+                  <CgLivePhoto
+                    style={{ marginRight: "5px", fontSize: "14px" }}
+                  />
+                  Live
+                </a>
+              </div>
             </div>
           ))}
         </div>

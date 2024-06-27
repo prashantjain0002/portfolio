@@ -2,6 +2,7 @@ import React from 'react'
 import "../components.css"
 import logo from '../../assets/logo.png'
 
+
 const Navbar = () => {
   return (
     <div className='navbar'>
