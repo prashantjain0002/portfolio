@@ -5,7 +5,7 @@ import "../components.css";
 
 const Skills = () => {
   return (
-    <div id="skills" className="skill">
+    <div id="skill" className="skill">
       <div className="title">
         <h1>Skills</h1>
         <img src={theme_pattern} alt="theme_pattern" />

@@ -6,9 +6,8 @@ import { FaGithub } from "react-icons/fa";
 import { CgLivePhoto } from "react-icons/cg";
 
 const Project = () => {
-  // console.log(projects);
   return (
-    <div className="myProject">
+    <div className="myProject" id="project">
       <div className="title">
         <h1>Projects</h1>
         <img src={theme_pattern} alt="theme_pattern" />
