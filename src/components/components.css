@@ -110,6 +110,12 @@
     display: none;
 }
 
+@media (max-width:1025px) {
+    .navbar {
+        margin: 20px;
+    }
+}
+
 @media (max-width:768px) {
     .navbar {
         margin: 20px 50px;
@@ -507,6 +513,18 @@
     justify-content: space-between;
 }
 
+@media (max-width:1025px) {
+    .projectCards {
+        width: 290px;
+    }
+    .projectCard {
+        gap: 6px;
+    }
+    .description {
+        font-size: 14px;
+    }
+}
+
 @media (max-width:410px) {
     .myProject {
         align-items: start;
@@ -516,6 +534,8 @@
         gap: 30px;
     }   
 }
+
+
 
 /*********************** Contact Component CSS ***********************/
 .contact {
@@ -671,6 +691,33 @@
     transition: 0.3s;
 }
 
+@media (max-width:1025px) {
+    .contactSection {
+        display: block;
+        gap: 50px;
+    }
+    .contactSection .left {
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .contactSection form label {
+        font-size: 18px;
+    }
+    .contactSection form input {
+        height: 50px;
+        border-radius: 30px;
+        font-size: 16px;
+    }
+    .contactSection form textarea {
+        border-radius: 30px;
+        font-size: 16px;
+    }
+    .contactSection form button {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+}
+
 @media (max-width:768px) {
     .contact {
         margin: 10px 10px;
@@ -817,6 +864,12 @@
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+}
+
+@media (max-width:1025px) {
+    .footer {
+        margin: 0px 30px;
+    }
 }
 
 @media (max-width:768px) {
