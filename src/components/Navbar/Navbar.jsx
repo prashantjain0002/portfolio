@@ -4,6 +4,7 @@ import logo from "../../assets/logo.png";
 import underLine from "../../assets/nav_underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { IoMenu, IoClose } from "react-icons/io5";
+import resume from "../../assets/Resume/Prashant Jain Resume.pdf"
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
@@ -54,7 +55,7 @@ const Navbar = () => {
           {menu === "contact" ? <img src={underLine} alt="underLine" /> : <></>}
         </li>
       </ul>
-      <div className="navConnect">Resume</div>
+      <a className="navConnect" href={resume} target="_blank" rel="noreferrer">Resume</a>
     </div>
   );
 };
