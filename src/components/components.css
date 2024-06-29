@@ -262,6 +262,9 @@ a {
     .hero h1 {
         font-size: 26px;
     }
+    .heroResume {
+        margin-left: 18px;
+    }
 }
 
 /*********************** About Component CSS ***********************/
