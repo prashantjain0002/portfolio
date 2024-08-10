@@ -55,11 +55,11 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/c-original-icon-446x512-2gn35m1q.png",
       },
-      {
-        name: "C++",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png",
-      },
+      // {
+      //   name: "C++",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png",
+      // },
       {
         name: "Java",
         image:
